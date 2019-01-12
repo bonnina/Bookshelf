@@ -25,7 +25,8 @@ namespace Bookshelf.Models
                         Title = "Pollyannna",
                         PublishDate = DateTime.Parse("1979-5-10"),
                         Genre = "Fiction",
-                        Author = "Eleanor Potter"
+                        Author = "Eleanor Potter",
+                        Rating = "R"
                     },
 
                     new Book
@@ -33,7 +34,8 @@ namespace Bookshelf.Models
                         Title = "The Complete Reference ",
                         PublishDate = DateTime.Parse("2010-7-07"),
                         Genre = "Education",
-                        Author = "Herbert Shildt"
+                        Author = "Herbert Shildt",
+                        Rating = "R"
                     }
                 );
                 context.SaveChanges();
