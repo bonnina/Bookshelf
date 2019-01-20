@@ -46,7 +46,7 @@ namespace Bookshelf.Pages.Books
             }
 
             Genres = new SelectList(await genreQuery.Distinct().ToListAsync());
-            Book = await _context.Book.ToListAsync();
+            Book = await books.ToListAsync();
         }
     }
 }
